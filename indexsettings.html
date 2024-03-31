@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Crack - Интернет Магазин Видеоигр</title>
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="stylesettings.css">
+  <link rel="stylesheet" href="indexsettings.css">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <a class="h1" href="index.html">Settings</a>
+  <div class="pustota"></div>
+  <div class="card">
+    Ваш Аккаунт
+  </div>
+  <a class="Log-In" href="indexlogin.html">Log-In</a>
+  <a class="Link" href="indexcard.html">Link Card</a>
+  <label class="theme-toggle">
+    <input  onclick="myFunction()" type="checkbox" id="theme-toggle-checkbox">
+    <span class="toggle-icon"></span>
+  </label>
+  <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("light-theme");
+    }
+  </script>
+</body>
+</html>

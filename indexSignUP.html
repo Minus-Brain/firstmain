@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title>Crack Log-In</title>
+        <link rel="shortcut icon"
+        href="images/icon.png"
+        type="image/x-icon">
+        <link rel="stylesheet" href="stylelogin.css">
+        <link rel="stylesheet" href="indexlogin.css">
+    </head>
+    <body>
+        <div class="login-box">
+          <form class="form" action="https://echo.htmlacademy.ru/"></form>
+            <h2>SignUp</h2>
+            <form>
+              <div class="user-box">
+                <input type="text" name="S-Username" required="">
+                <label>Username</label>
+              </div>
+              <div class="user-box">
+                <input type="email" name="S-Email" required="">
+                <label>Email</label>
+              </div>
+              <div class="user-box">
+                <input type="password" name="S-password1" required="">
+                <label>Password</label>
+              </div>
+              <div class="user-box">
+                <input type="password" name="S-password2" required="">
+                <label>Repeat the password</label>
+              </div>
+              <a class="SubmitLogin" href="indexlogin.html" type="Submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+              </a>
+              <a href="indexlogin.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Login
+              </a>
+            </form>
+          </div>
+          </form>
+          <script lang="Js">
+            var i = document.createElement('input');
+            if ('placeholder' in i) { }
+          </script>
+          <script lang ='JS'>
+            let SubmitLogin = document.querySelector('.SubmitLogin')
+            SubmitLogin.addEventListener('click', function(){
+              alert("Вы зарегистрировались на этом сайте!")    
+            })
+          </script>
+    </body>
+</html>

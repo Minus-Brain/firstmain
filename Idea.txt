@@ -1,0 +1,19 @@
+ ТЕМЫ
+  feather.replace();
+  var html = document.getElementsByTagName('html');
+  var radios = document.getElementsByName('themes');
+
+  for (i = 0; i < radios.lenght, i++) {
+    radios[i].addEventListener('change', function() {
+      html[0].classList.remove(html[0].classList.item(0))
+      html[0].classList.add(this.id);
+    });
+  }
+<script type="text/javascript">
+	var color = ["#212534", "#ffff"]
+        var i = 0;
+        document.querySelector("button").addEventListener("click" , function(){
+        	i = i < color.length ? ++i : 0;
+        document.querySelector("button").style.background = color[i]
+        })
+        </script>
